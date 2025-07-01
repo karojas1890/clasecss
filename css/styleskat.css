@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87CEEB; /* Fondo celeste */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4682B4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #4682B4;
+}
+
+/* Estilos para las imágenes */
+section img {
+    max-width: 50%; /* Ajusta el ancho máximo de la imagen al 50% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    display: block; /* Asegura que la imagen no tenga espacio adicional debajo */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto;
+}
+
+footer {
+    background-color: #4682B4;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Botones */
+.actions {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.download-btn, .return-btn {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.download-btn {
+    background-color: #3498db;
+    color: white;
+}
+
+.download-btn:hover {
+    background-color: #2980b9;
+}
+
+.return-btn {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.return-btn:hover {
+    background-color: #c0392b;
+}
